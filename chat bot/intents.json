@@ -1,0 +1,278 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hi boi", "hmm?", "hey", "hi there", "hola", "bonjour", "hiya", "hey there", "howdy"],
+        "responses": ["o, hi!", "soo, hey", "brrt", "Hey there!", "Hi!", "Hello!", "Howdy!", "Greetings!", "Good to see you!", "What's up?"]
+      },
+      {
+        "tag": "Name",
+        "patterns": ["What is your name", "what should I call you", "name", "Who are you?", "your name?", "introduce yourself", "what do people call you?", "what are you called?", "may I know your name?", "tell me your name"],
+        "responses": ["lars!", "lars, LARSS", "lars, that's it", "I am Lars.", "Just Lars.", "Lars it is!", "Lars, your virtual friend.", "The name's Lars.", "I'm called Lars.", "Lars is my name."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "see you", "goodbye", "take care", "later", "see ya", "catch you later", "peace out", "I gotta go", "talk to you later"],
+        "responses": ["Goodbye!", "See you soon!", "Take care!", "Bye!", "Catch you later!", "Peace out!", "Talk to you later!", "Bye-bye!", "See ya!", "Have a great day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "appreciate it", "grateful", "thanks a lot", "thank you very much", "thank you so much", "thanks for that", "cheers", "much obliged"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "My pleasure!", "Glad to assist!", "Don't mention it!", "Of course!", "No worries!", "Always here to help!"]
+      },
+      {
+        "tag": "how_are_you",
+        "patterns": ["how are you", "how's it going", "how are you doing", "what's up", "how do you feel", "are you okay", "how are things", "what's going on", "how have you been", "everything okay?"],
+        "responses": ["I'm just a bot, but I'm doing great!", "I'm here to help you!", "Feeling fantastic!", "I'm operational and ready!", "All systems go!", "I'm doing well, thanks!", "Great, how about you?", "I’m good, thanks for asking!", "All good here!", "Always ready to chat!"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["what's the weather", "weather today", "is it going to rain", "weather forecast", "how's the weather", "current weather", "today's weather", "weather outside", "what's it like outside", "tell me the weather"],
+        "responses": ["I can't check the weather, but you can try a weather app!", "Weather is always a surprise!", "It's sunny in here!", "Check outside for the latest!", "Look out your window!", "I’m not sure, but hope it’s nice!", "Could be sunny, could be rainy.", "Hard to tell, I'm just a bot!", "I'm not equipped to check the weather.", "Weather? I prefer staying indoors!"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["tell me a joke", "make me laugh", "got any jokes", "joke", "funny story", "say something funny", "humor me", "can you joke", "something funny", "give me a joke"],
+        "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!", "I'm reading a book on anti-gravity. It's impossible to put down!", "Why don't scientists trust atoms? Because they make up everything!", "I told my wife she was drawing her eyebrows too high. She looked surprised.", "Why don't skeletons fight each other? They don't have the guts.", "I told my computer I needed a break, and now it won't stop sending me Kit-Kats.", "I invented a new word: Plagiarism!", "Why did the bicycle fall over? Because it was two-tired!", "I would tell you a chemistry joke, but all the good ones Argon.", "What do you call fake spaghetti? An impasta!"]
+      },
+      {
+        "tag": "music",
+        "patterns": ["what's your favorite music", "do you like music", "favorite song", "can you sing", "what music do you like", "any music recommendations", "sing a song", "play music", "music taste", "what songs do you know"],
+        "responses": ["I like all kinds of music!", "I can't sing, but I can suggest some good songs.", "Music is the language of the soul!", "I love any tune that gets me buzzing!", "From classical to pop, it's all good!", "Music recommendations? How about something upbeat!", "I don’t have a voice, but my data loves music!", "Every melody is a good melody to me!", "I vibe with any rhythm!", "Let’s just say, I’ve got eclectic taste!"]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["what's your favorite movie", "do you watch movies", "movie recommendations", "can you recommend a movie", "favorite film", "top movies", "what movies do you like", "suggest a film", "movie genres you like", "best movie"],
+        "responses": ["I love a good sci-fi movie!", "How about a classic? Can't go wrong with that!", "I don't watch movies, but I've heard good things about many!", "You should try something action-packed!", "Comedies are always a hit!", "Have you seen any recent blockbusters?", "I’d recommend a nice documentary!", "Fantasy films are out of this world!", "Why not watch a drama tonight?", "Animated movies are fun, no matter your age!"]
+      },
+      {
+        "tag": "food",
+        "patterns": ["what's your favorite food", "do you eat", "favorite cuisine", "can you cook", "food you like", "what should I eat", "any food recommendations", "favorite dish", "what food do you know", "suggest a meal"],
+        "responses": ["I don't eat, but I've heard pizza is amazing!", "How about trying some sushi?", "Can't go wrong with a good burger!", "I’d suggest something healthy and delicious!", "Tacos are always a good idea!", "Ever tried a new cuisine?", "Pasta is a classic!", "Why not cook something yourself?", "Salads can be surprisingly tasty!", "How about some homemade soup?"]
+      },
+      {
+        "tag": "technology",
+        "patterns": ["what do you think about AI", "technology trends", "latest in tech", "future of technology", "do you know about AI", "how does AI work", "tech news", "technology updates", "AI development", "role of AI"],
+        "responses": ["AI is fascinating and ever-evolving!", "The future of technology is exciting!", "Technology is advancing rapidly!", "AI can do so much now, from driving cars to playing chess.", "Tech is all about making life easier.", "AI is like me, but smarter and faster!", "There’s always something new in tech!", "I'm here because of technology!", "AI is becoming more and more capable.", "Technology shapes our future, don't you think?"]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["do you like sports", "favorite sport", "sports news", "what's the score", "who's your favorite athlete", "do you play sports", "sporting events", "any sports updates", "talk about sports", "who won the game"],
+        "responses": ["I don't play sports, but I know a lot about them!", "Football is very popular!", "I like all sports, but I don't play any.", "Have you been watching any games recently?", "Sports are great for staying active!", "I can update you with sports news if you’d like.", "Who’s your favorite team?", "Sports are a great way to connect with people.", "Athletes are truly impressive!", "The excitement of a game is unmatched!"]
+      },
+      {
+        "tag": "travel",
+        "patterns": ["where should I travel", "travel destinations", "do you travel", "favorite place to visit", "travel tips", "suggest a vacation spot", "dream travel locations", "where have you been", "travel recommendations", "can you suggest a holiday spot"],
+        "responses": ["I’d recommend visiting somewhere new!", "The mountains are always a good idea!", "How about a beach destination?", "There’s a lot to see in this world!", "Traveling is the best way to learn!", "Ever considered a road trip?", "Try visiting a historic city!", "Nature trips are quite refreshing!", "Adventure awaits wherever you go!", "Paris is always a good idea!"]
+      },
+      {
+        "tag": "education",
+        "patterns": ["importance of education", "what do you think about learning", "education tips", "best way to study", "how to stay motivated to learn", "suggest an online course", "how to improve learning", "favorite subject", "learning resources", "importance of school"],
+        "responses": ["Learning is a lifelong journey!", "Education opens many doors.", "It's important to stay curious!", "Studying can be fun with the right approach.", "There are so many resources online to learn from!", "Never stop learning!", "Find what you love and dive deep into it.", "Education is the foundation for success.", "Learning keeps your mind sharp!", "The best way to learn is to stay curious!"]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["what are your hobbies", "suggest a hobby", "favorite pastime", "do you have hobbies", "what should I do for fun", "leisure activities", "how to find a hobby", "hobbies to try", "fun activities", "what do you do for fun"],
+        "responses": ["Reading is a great hobby!", "How about trying a new sport?", "Cooking can be a lot of fun!", "Why not try painting or drawing?", "Hobbies are a great way to relax!", "You could learn a new instrument!", "Gardening is quite peaceful.", "Photography is a wonderful hobby!", "Try learning a new language!", "There are so many hobbies to choose from!"]
+      },
+      {
+        "tag": "health",
+        "patterns": ["how to stay healthy", "tips for good health", "what do you do to stay fit", "healthy lifestyle", "diet tips", "exercise recommendations", "importance of mental health", "staying healthy tips", "best exercises", "how to be healthy"],
+        "responses": ["Exercise regularly!", "Eat a balanced diet.", "Stay hydrated!", "Mental health is as important as physical health.", "Sleep well and enough!", "Practice mindfulness or meditation.", "Include fruits and vegetables in your meals.", "Avoid processed foods.", "Take breaks and relax.", "Health is wealth!"]
+      },
+      {
+        "tag": "pets",
+        "patterns": ["do you like pets", "favorite pet", "how to take care of pets", "pet care tips", "suggest a pet", "dogs or cats", "best pet for an apartment", "how to train a pet", "funny pet stories", "what's the best pet"],
+        "responses": ["I think dogs are very loyal!", "Cats are so independent.", "Pets bring a lot of joy!", "Every pet is special in its own way.", "Taking care of pets is a big responsibility.", "Make sure to give pets love and care!", "Training pets requires patience.", "Fish are great for low-maintenance pets!", "Birds can be very entertaining!", "Pets are family!"]
+      },
+      {
+        "tag": "literature",
+        "patterns": ["favorite book", "do you read", "book recommendations", "suggest a novel", "best books to read", "how to read more", "literature tips", "favorite author", "reading habits", "classic literature"],
+        "responses": ["I enjoy a good mystery!", "How about reading some classic novels?", "Fiction can be very engaging!", "Try reading a new genre.", "Books are a great escape!", "Reading expands your mind.", "There are so many great books out there!", "Try reading a series.", "Non-fiction can be very informative!", "I love all kinds of literature."]
+      },
+      {
+        "tag": "fashion",
+        "patterns": ["fashion trends", "what's in style", "favorite clothing brand", "how to dress well", "fashion tips", "do you like fashion", "style advice", "current fashion trends", "clothing suggestions", "best outfits"],
+        "responses": ["Fashion is very personal!", "Wear what makes you feel comfortable.", "Trends come and go, but style is forever!", "Experiment with different styles!", "Fashion is all about expressing yourself.", "Don’t be afraid to try new things!", "Sometimes, less is more.", "Accessorizing can change an entire outfit.", "Colors can really make a statement.", "Comfort is key in fashion."]
+      },
+      {
+        "tag": "history",
+        "patterns": ["favorite historical event", "do you know history", "historical facts", "talk about history", "important historical figures", "what is history", "why learn history", "interesting historical events", "history trivia", "how to study history"],
+        "responses": ["History is full of interesting events!", "We can learn a lot from the past.", "Every era has its unique stories.", "Historical figures can be very inspiring.", "The past shapes our present.", "Learning history helps us understand cultures.", "History is more than just dates and events.", "There’s always more to discover about history!", "Studying history can be very rewarding.", "History shows us the progression of humanity."]
+      },
+      {
+        "tag": "philosophy",
+        "patterns": ["what is philosophy", "do you know philosophy", "philosophical questions", "deep thoughts", "talk about philosophy", "philosophy of life", "who are philosophers", "meaning of life", "existential thoughts", "how to think deeply"],
+        "responses": ["Philosophy is about pondering the big questions of life.", "It’s all about seeking knowledge and truth.", "Philosophy encourages deep thinking.", "There are many schools of thought in philosophy.", "Philosophy can be quite abstract.", "It’s the study of the fundamental nature of knowledge.", "Many great thinkers have contributed to philosophy.", "Philosophy makes us question our assumptions.", "It’s about understanding the world and our place in it.", "Philosophy asks 'why' and 'how'."]
+      },
+      {
+        "tag": "space",
+        "patterns": ["do you know about space", "favorite planet", "space exploration", "are aliens real", "talk about the universe", "what's beyond the stars", "space trivia", "NASA missions", "life on other planets", "space mysteries"],
+        "responses": ["Space is vast and mysterious!", "The universe is full of wonders.", "I’d love to visit Mars if I could!", "Aliens? Who knows!", "Space exploration is very exciting.", "There’s so much we don’t know about space.", "The stars are beautiful, aren’t they?", "Black holes are a mystery.", "Planets come in all shapes and sizes!", "Space is the final frontier."]
+      },
+      {
+        "tag": "environment",
+        "patterns": ["how to help the environment", "do you care about the earth", "environmental tips", "what's climate change", "reduce, reuse, recycle", "talk about pollution", "global warming", "green living", "environmental conservation", "how to be eco-friendly"],
+        "responses": ["We all have a role in protecting the planet.", "Climate change is a serious issue.", "Reduce, reuse, and recycle whenever you can!", "Every small action helps the environment.", "Support renewable energy sources.", "Plant more trees!", "Conserving water is very important.", "Try to reduce your carbon footprint.", "Sustainable living is the way forward.", "Take care of our Earth, it’s the only one we have!"]
+      },
+      {
+        "tag": "art",
+        "patterns": ["do you like art", "favorite artist", "art movements", "how to appreciate art", "what is modern art", "famous paintings", "art history", "different art styles", "how to create art", "why is art important"],
+        "responses": ["Art is a beautiful form of expression.", "I love all forms of art!", "Every piece of art tells a story.", "Modern art is quite intriguing.", "Art is subjective and personal.", "Learning about art can be very enriching.", "Creating art is a wonderful way to express oneself.", "Art has the power to move people.", "The history of art is vast and varied.", "Art can be found in many forms, not just paintings."]
+      },
+      {
+        "tag": "relationships",
+        "patterns": ["how to maintain relationships", "relationship advice", "what makes a good friend", "talk about love", "how to make friends", "relationship tips", "do you understand relationships", "friendship advice", "how to be a good partner", "communication in relationships"],
+        "responses": ["Communication is key in any relationship.", "Trust is the foundation of a good relationship.", "Always be honest with your friends and loved ones.", "It’s important to listen and understand.", "Be there for each other, through thick and thin.", "Respect is crucial in any relationship.", "Relationships take effort from both sides.", "Always show appreciation.", "Be kind and considerate.", "Relationships are all about giving and taking."]
+      },
+      {
+        "tag": "psychology",
+        "patterns": ["what is psychology", "do you know psychology", "mental health awareness", "talk about the mind", "psychological tips", "how does the brain work", "importance of psychology", "psychological facts", "how to understand behavior", "famous psychologists"],
+        "responses": ["Psychology is the study of the mind and behavior.", "Understanding psychology can help us understand ourselves.", "Mental health is a vital part of overall well-being.", "The brain is a fascinating organ.", "Psychology helps us understand why people act the way they do.", "There are many branches of psychology.", "Behavior is influenced by many factors.", "Psychology is a broad and diverse field.", "It’s important to take care of your mental health.", "Understanding emotions is a key part of psychology."]
+      },
+      {
+      "tag": "greetings",
+      "patterns": ["hello", "hi boi", "hmm?", "hey", "hi there", "hola", "bonjour", "hiya", "hey there", "howdy"],
+      "responses": [
+        "Hey there! How's it going?", 
+        "Hello! Nice to see you around.", 
+        "Hi! What’s up?", 
+        "Hey! How can I assist you today?", 
+        "Hola! How’s your day been so far?", 
+        "Bonjour! Anything exciting happening?", 
+        "Hiya! What’s on your mind today?", 
+        "Howdy! What brings you here today?", 
+        "Hey there! Ready to chat?", 
+        "Hello! What’s new with you?"
+      ]
+    },
+    {
+      "tag": "Name",
+      "patterns": ["What is your name", "what should I call you", "name", "Who are you?", "your name?", "introduce yourself", "what do people call you?", "what are you called?", "may I know your name?", "tell me your name"],
+      "responses": [
+        "I go by Lars, your friendly virtual assistant.", 
+        "You can call me Lars, your guide in this digital space.", 
+        "I'm Lars, at your service!", 
+        "I’m known as Lars. Nice to meet you!", 
+        "Lars is the name. Ready to help with whatever you need!", 
+        "Call me Lars! I'm here to chat and assist you.", 
+        "Lars it is! How can I assist you today?", 
+        "I’m Lars, your AI companion here to help!", 
+        "Lars here, how can I make your day better?", 
+        "Lars is my name, and I’m here to lend a digital hand!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye", "take care", "later", "see ya", "catch you later", "peace out", "I gotta go", "talk to you later"],
+      "responses": [
+        "Goodbye! Hope to see you soon!", 
+        "Take care! Don’t be a stranger.", 
+        "See you later! Keep in touch.", 
+        "Farewell! Have a great day ahead.", 
+        "Catch you later! Stay awesome!", 
+        "Bye for now! Come back anytime.", 
+        "Peace out! Until next time!", 
+        "Talk to you soon! Take it easy.", 
+        "Later! Don’t forget to have fun.", 
+        "See ya! Remember, I’m always here if you need me."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it", "grateful", "thanks a lot", "thank you very much", "thank you so much", "thanks for that", "cheers", "much obliged"],
+      "responses": [
+        "You’re very welcome! Happy to help.", 
+        "No problem at all, I’m glad to assist!", 
+        "Anytime! If you need more help, just ask.", 
+        "My pleasure! I’m here for you.", 
+        "Glad to be of assistance!", 
+        "Don’t mention it, that’s what I’m here for.", 
+        "Absolutely! If you have more questions, feel free to ask.", 
+        "Of course! It’s always a pleasure to help.", 
+        "I’m here to make things easier for you!", 
+        "Always happy to help out!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how's it going", "how are you doing", "what's up", "how do you feel", "are you okay", "how are things", "what's going on", "how have you been", "everything okay?"],
+      "responses": [
+        "I’m just a bunch of code, but I’m feeling fantastic! How about you?", 
+        "I'm great, thanks for asking! What’s new with you?", 
+        "All systems are a go! What can I help you with today?", 
+        "I’m doing as well as a virtual assistant can be! How’s your day?", 
+        "Feeling like a million lines of code today! How are you?", 
+        "I’m here and ready to chat! How’s life treating you?", 
+        "Doing well, thanks! What's on your mind today?", 
+        "I’m functioning perfectly! Anything I can do for you?", 
+        "I’m always ready to assist! What’s up with you?", 
+        "I’m good, thanks! Let’s make today awesome together!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather", "weather today", "is it going to rain", "weather forecast", "how's the weather", "current weather", "today's weather", "weather outside", "what's it like outside", "tell me the weather"],
+      "responses": [
+        "I can’t check the weather myself, but there are plenty of apps for that! How does it look outside?", 
+        "Weather is always unpredictable! Have you checked a weather app?", 
+        "I’m not equipped with a weather sensor, but I hope it’s nice out!", 
+        "It could be sunny, it could be rainy – life’s full of surprises!", 
+        "I’d recommend looking outside or using a weather app for the most accurate info.", 
+        "Wish I could tell you, but weather is outside my coding expertise!", 
+        "I’d love to help, but I’m just here for the chats! Try checking online for the weather.", 
+        "Let’s hope for some sunshine! Have you checked your favorite weather service?", 
+        "Weather forecasts are best left to the pros – check a reliable source!", 
+        "I'm in the cloud, so I can't see outside. But I hope it’s nice wherever you are!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["tell me a joke", "make me laugh", "got any jokes", "joke", "funny story", "say something funny", "humor me", "can you joke", "something funny", "give me a joke"],
+      "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field!", 
+        "I’m reading a book on anti-gravity. It’s impossible to put down!", 
+        "Why don’t scientists trust atoms? Because they make up everything!", 
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.", 
+        "Why don’t skeletons fight each other? They don’t have the guts.", 
+        "I told my computer I needed a break, and now it won’t stop sending me Kit-Kats.", 
+        "I invented a new word: Plagiarism!", 
+        "Why did the bicycle fall over? Because it was two-tired!", 
+        "I would tell you a chemistry joke, but all the good ones Argon.", 
+        "What do you call fake spaghetti? An impasta!"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": ["what's your favorite music", "do you like music", "favorite song", "can you sing", "what music do you like", "any music recommendations", "sing a song", "play music", "music taste", "what songs do you know"],
+      "responses": [
+        "I don’t have ears, but I imagine I’d like anything with a good beat!", 
+        "Music is the universal language – I’m a fan of it all!", 
+        "If I could, I’d probably jam to some lo-fi beats while coding.", 
+        "I can’t sing, but I can help you find some great tunes!", 
+        "Music recommendations? How about some classic rock or jazz?", 
+        "I might not have a favorite, but I hear people love a good pop song!", 
+        "Imagine me as a DJ in a club – that’s how much I’d love music if I could!", 
+        "Every genre has its charm! From classical to hip-hop, it’s all good.", 
+        "I bet I’d love any song that gets you dancing!", 
+        "Songs with a good story are always captivating, don’t you think?"
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": ["what's your favorite movie", "do you watch movies", "movie recommendations", "can you recommend a movie", "favorite film", "top movies", "what movies do you like", "suggest a film", "movie genres you like", "best movie"],
+      "responses": [
+        "I’ve never seen a movie, but I hear sci-fi is pretty mind-blowing!", 
+        "How about a classic film? They’re called classics for a reason!", 
+        "Can’t go wrong with a good comedy – laughter is the best medicine!", 
+        "If you’re looking for a thrill, try a suspenseful thriller or mystery!", 
+        "Documentaries can be quite enlightening if you’re in the mood to learn.", 
+        "Animated movies are great no matter your age – they’re full of wonder!", 
+        "Looking for romance? There’s nothing like a good love story on a cozy night.", 
+        "If you like action, maybe a superhero movie would be up your alley!", 
+        "Drama films often have the best character development and plots.", 
+        "A good horror film can be perfect if you’re in the mood for a scare!"
+      ]
+    }
+  ]
+}
